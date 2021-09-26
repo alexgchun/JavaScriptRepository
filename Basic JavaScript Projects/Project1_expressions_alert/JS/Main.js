@@ -26,3 +26,10 @@ document.write(d);
 var q = 5;
 var w = 10;
 document.write(q + w);
+
+function myFunction() {
+    var str = "Am i green yet?";
+    var result = str.fontcolor("green");
+    document.getElementById("green_text").innerHTML = result;
+
+}
