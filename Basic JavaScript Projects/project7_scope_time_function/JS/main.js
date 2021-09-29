@@ -1,4 +1,4 @@
-var x = 10;
+//var x = 10;
 function add_1() {
     document.write(20 + x + "<br>");
 }
@@ -7,6 +7,22 @@ function add_2() {
     var y = 10;
     document.write(20 + y);
 }
+
+function add_num_1() {
+    var x = 10;
+    console.log(15 + x);
+}
+
+function add_num_2() {
+    //console.log(x + 100)
+    document.write(x + 100);//shows that x is not defined
+}
+add_num_1();
+add_num_2();
+
+
+
+
 
 function get_Date() {
     if (new Date().getHours() < 18) {
