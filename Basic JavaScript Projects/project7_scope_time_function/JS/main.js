@@ -47,3 +47,10 @@ function Time_function() {
     }
     document.getElementById("Time_of_day").innerHTML = Reply;//replace button text (same id) with the string the function chooses
 }
+
+function full_sentence() {
+    var part_1 = "i have ";
+    var part_2 = "GiTar StrAnG";
+    var whole_sentence = part_1.concat(part_2); // var x = y_1.concat(y_2); -> i have gitar strang.
+    document.getElementById("concatenate").innerHTML = whole_sentence;
+}
