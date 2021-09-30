@@ -69,6 +69,7 @@ function my_return(x) {
 document.write(my_return(3));
 
 
+
 let car = {
     make: "Dodge ",
     model: "Viper ",
@@ -79,6 +80,20 @@ let car = {
     }
 
 };
+document.getElementById("Car_Object").innerHTML = car.description();
+/*
+function my_break() {
+    for (let i = 0; i < 10; i++) {
+        if (i === 3) { break; }//stops when i = 3
+        text += "The number is " + i + "<br>";
+      }
+      document.getElementById("poke").innerHTML = text;
+}
 
-document.getElementById("Car_Object").innerHTML = car.description();//why is there brackets?
 
+function my_continue() {
+    for (let i = 0; i < 10; i++) {
+        if (i === 3) { continue; } //skips i = 3 until condition is met
+        text += "The number is " + i + "<br>";
+      }
+}*/
